@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/mainPage"
+            android:icon="@android:drawable/ic_menu_agenda"
+            android:title="SEARCH COURSES" />
+        <item
+            android:id="@+id/savedPage"
+            android:icon="@android:drawable/ic_menu_myplaces"
+            android:title="SAVED COURSES" />
+        <item
+            android:id="@+id/aboutPage"
+            android:icon="@android:drawable/ic_menu_help"
+            android:title="ABOUT" />
+    </group>
+</menu>

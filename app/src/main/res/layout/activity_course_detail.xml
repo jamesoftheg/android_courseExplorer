@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CourseDetail">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="155dp"
+        tools:layout_editor_absoluteY="210dp">
+
+        <!-- Header  -->
+        <include layout="@layout/header" />
+
+        <TextView
+            android:id="@+id/courseCode"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Course Code" />
+
+        <TextView
+            android:id="@+id/courseName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Course Name" />
+
+        <TextView
+            android:id="@+id/programOfStudies"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Program of Studies" />
+
+        <TextView
+            android:id="@+id/courseHours"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Hours" />
+
+        <TextView
+            android:id="@+id/courseDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Course Description" />
+
+        <Button
+            android:id="@+id/saveDb"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="addData"
+            android:text="Save Course" />
+
+        <Button
+            android:id="@+id/backToSearch"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="back"
+            android:text="Back to Search" />
+    </LinearLayout>
+
+    <com.google.android.material.navigation.NavigationView
+        android:id="@+id/nav_view"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:background="#FFFFFF"
+        app:headerLayout="@layout/header"
+        app:menu="@menu/drawer_menu">
+
+    </com.google.android.material.navigation.NavigationView>
+</androidx.drawerlayout.widget.DrawerLayout>

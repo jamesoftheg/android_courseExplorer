@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Final Project - James Gelfand 000275852</string>
+    <string name="headerLabel">Mohawk Course Search</string>
+    <string name="label1">Begin your Search: </string>
+    <string name="label2">Select a Search Filter: </string>
+    <string name="hint1">Begin Search…</string>
+    <string name="hint2">Click on one of the courses below to view in more detail and save to your list of classes you may be interested in.</string>
+    <string name="aboutHeader">About: </string>
+    <string name="savedHeader">Saved Courses: </string>
+    <string name="open">\"Drawer Is Open\"</string>
+    <string name="close">Drawer Is Closed</string>
+    <string name="aboutText">Application used to search up various courses available at Mohawk College.
+        I James Gelfand 000275852 certify that this material is my original work.
+        No other persons work has been used without due acknowledgement.</string>
+    <string-array name="search_array">
+        <item>Course Code</item>
+        <item>Course Name</item>
+        <item>Program Code</item>
+        <item>Semester Number</item>
+        <item>Is Elective?</item>
+    </string-array>
+</resources>
